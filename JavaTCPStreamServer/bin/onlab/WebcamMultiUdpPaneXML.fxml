@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="multiUdpAnchor" prefHeight="248.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="onlab.WebcamMultiUdpPaneController">
+   <children>
+      <Button fx:id="startButton" layoutX="10.0" layoutY="157.0" mnemonicParsing="false" text="Start server" />
+      <TextField fx:id="port1TextField" layoutX="170.0" layoutY="10.0" />
+      <Label fx:id="port1" layoutX="10.0" layoutY="15.0" text="Client port address:" />
+      <Button fx:id="stopButton" layoutX="248.0" layoutY="157.0" mnemonicParsing="false" text="Stop server" />
+      <TextField fx:id="port2TextField" layoutX="170.0" layoutY="50.0" />
+      <Label fx:id="port2" layoutX="10.0" layoutY="55.0" text="Client 2 port address:" />
+      <TextField fx:id="sourceTextField" layoutX="170.0" layoutY="92.0" />
+      <Label layoutX="10.0" layoutY="97.0" text="Webcamera source:" />
+      <Button fx:id="sourceFE" layoutX="346.0" layoutY="92.0" mnemonicParsing="false" text="FE" />
+      <CheckBox fx:id="flipBox" layoutX="170.0" layoutY="124.0" mnemonicParsing="false" text="Flip 180" />
+   </children>
+</AnchorPane>
