@@ -1,2 +1,2 @@
-# OnlabGStreamer
-Tutorial how to use server in eclipse and client in Android coming soon...
+RTSP Client
+
